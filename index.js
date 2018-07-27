@@ -10,3 +10,7 @@ function destructivelyAppendDriver(name) {
 function destructivelyPrependDriver(name) {
   const newDrivers = drivers.unshift("Bob")
 }
+
+function destructivelyRemoveLastDriver() {
+  
+}
