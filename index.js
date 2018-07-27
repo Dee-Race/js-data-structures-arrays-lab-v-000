@@ -18,3 +18,19 @@ function destructivelyRemoveLastDriver() {
 function destructivelyRemoveFirstDriver() {
   const newDrivers = drivers.shift();
 }
+
+function appendDriver(name) {
+  const newDrivers = drivers.slice(0);
+}
+
+function prependDriver(name) {
+  const newDrivers = drivers.slice(2);
+}
+
+function removeLastDriver() {
+  
+}
+
+function removeFirstDriver() {
+  
+}
